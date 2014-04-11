@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Simple Calculator
+    link(rel='stylesheet', href='/css/app.css')
+  body
+    h1 Simple Calculator
+
+    input#num1(type='text')
+    button#add +
+    button#sub -
+    button#mult ˟
+    button#divide ÷
+    button#exp ^
+    input#num2(type='text')
+    span =
+    span#answer
+    br
+    input#num3(type='text')
+    button#fact !
+    button#root √
+
+    script(src='/js/vendor/jquery-2.1.0.js')
+    script(src='/js/source/main.js')
